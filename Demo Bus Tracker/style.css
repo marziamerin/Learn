@@ -3,12 +3,21 @@ h1{
     font-size: 50px;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     }
+
     blockquote {
-        background-color: bisque;
         font-size: 25px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     div {
         font-size: 20px;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 20px;
+    }
+    h2{
+        font-size: 25px;
+        padding:0cqmax;
+        background-color: rgb(166, 248, 221);
+    }
+    p{
+        font-size: 20px;
     }
