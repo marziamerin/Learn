@@ -17,6 +17,11 @@ h1{
         font-family: Georgia, 'Times New Roman', Times, serif;
         margin: 20px;
     }
+    li{
+        list-style-type: none;
+        text-shadow: 2px 2px #e9e9e9;
+
+    }
     h2{
         font-size: 25px;
         padding:0cqmax;
