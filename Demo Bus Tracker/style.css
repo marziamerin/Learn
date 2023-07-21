@@ -2,12 +2,16 @@ h1{
     margin: 20px;
     font-size: 50px;
     font-family:Georgia, 'Times New Roman', Times, serif ;
+    
     }
 
     blockquote {
         font-size: 25px;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        line-height: 35px;
+        letter-spacing: normal;
     }
+    
     div {
         font-size: 20px;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,5 +23,9 @@ h1{
         background-color: rgb(166, 248, 221);
     }
     p{
-        font-size: 20px;
+        font-size: 23px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        line-height: 30px;
+        letter-spacing: 5cap;
     }
+   
