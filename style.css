@@ -8,7 +8,7 @@ h1{
     }
     .cover img{
         max-width: 100%;
-        filter: opacity();
+        filter: opacity;
         
     }
     blockquote {
@@ -25,9 +25,23 @@ h1{
     }
     li{
         list-style-type: none;
-        text-shadow: 2px 2px #e9e9e9;
+        text-shadow: 2px 2px #0a0a0a;
         font-weight: bold;
+        color: whitesmoke;
 
+    }
+    nav{
+        background-color:  rgb(5, 31, 117);
+        padding: 10px;
+    }
+    nav li{
+        width: 18%;
+        display: inline-block;
+        max-width: 1200px;
+        margin: 0 auto ;
+    }
+    nav ul{
+        white-space: nowrap;
     }
     h2{
         font-size: 25px;
