@@ -1,13 +1,15 @@
 h1{
     margin: 20px;
-    font-size: 50px;
+    font-size: 70px;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     position: absolute;
+    top:20% ; 
     
     }
-    image{
+    .cover img{
         max-width: 100%;
-        top:20% ;  
+        filter: opacity();
+        
     }
     blockquote {
         font-size: 25px;
@@ -42,6 +44,7 @@ h1{
    .Merin{
     background-color: #e2e0e0;
     padding: 20px;
+    border-radius: 10px;
     
    }
   
