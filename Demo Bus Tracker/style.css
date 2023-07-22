@@ -25,8 +25,9 @@ h1{
     }
     h2{
         font-size: 25px;
-        padding:0cqmax;
-        background-color: rgb(166, 248, 221);
+        padding:10px;
+        background-color: rgb(5, 31, 117);
+        color: white;
     }
     p{
         font-size: 23px;
