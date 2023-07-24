@@ -1,10 +1,11 @@
 h1{
+    opacity: 100%;
     font-size: 100px;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     position: absolute;
     left: 52%;
     top: 40%;
-    color: black;
+    color: rgb(5, 31, 117);
  
     }
     blockquote {
@@ -30,13 +31,15 @@ h1{
         padding: 10px;
     }
     nav li{
-        width: 16%;
+        width: 30%;
         display: inline-block;
         max-width: 1200px;
         margin: 0 auto ;
     }
     nav ul{
         white-space: nowrap;
+        max-width: 1200px;
+        margin: 0 auto;
     }
     h2{
         font-size: 25px;
