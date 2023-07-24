@@ -1,10 +1,11 @@
 h1{
-    margin: 20px;
-    font-size: 70px;
+    font-size: 100px;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     position: absolute;
-    top:20% ; 
-    
+    left: 52%;
+    top: 40%;
+    color: black;
+ 
     }
     blockquote {
         font-size: 25px;
@@ -29,7 +30,7 @@ h1{
         padding: 10px;
     }
     nav li{
-        width: 18%;
+        width: 16%;
         display: inline-block;
         max-width: 1200px;
         margin: 0 auto ;
@@ -56,7 +57,10 @@ h1{
     
    }
    img{
- filter: opacity(0.9);
- width: 1340px;
+    filter: opacity(0.6);
+    width: 1340px;
+    position: inherit;
+    top: auto;
+
    }
   
