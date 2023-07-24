@@ -28,13 +28,14 @@ h1{
     }
     nav{
         background-color:  rgb(5, 31, 117);
-        padding: 10px;
+        padding: 20px;
     }
     nav li{
-        width: 30%;
+        width: 25%;
         display: inline-block;
         max-width: 1200px;
         margin: 0 auto ;
+        text-align: center;
     }
     nav ul{
         white-space: nowrap;
@@ -72,4 +73,72 @@ h1{
     text-align: center;
     padding: 7px;
    }
-  
+   nav li:hover{
+    text-decoration: underline;
+   }
+   @media screen and (max-width:1115px) {
+    h1 {
+        font-size: 75px;
+        left:55% ;
+        top: 50%;
+    }
+    img{
+        width: 1090px;
+    }
+   }
+   @media screen and (max-width:1000px) {
+    h1 {
+        font-size: 70px;
+        left: 52%;
+        top: 55%;
+    }
+    img{
+        width: 975px;
+    }
+   }
+   @media screen and (max-width:900px) {
+    h1 {
+        font-size: 60px;
+        left: 55%;
+        top: 59%;
+    }
+    img{
+        width: 875px;
+    }
+   }
+   @media screen and (max-width:850px) {
+    h1 {
+        font-size: 65px;
+        left: 48%;
+        top: 65%;
+    }
+    img{
+        width: 825px;
+    }
+    nav li{
+       width: 24%;
+    }
+   }
+   @media screen and (max-width:500px) {
+    h1 {
+        font-size: 35px;
+        left: 49%;
+        top: 35%;
+    }
+    img{
+        width: 475px;
+        height: 400px;
+    }
+    nav li{
+        width: 25%;
+        font-size: medium;
+        max-width: 500px;
+        margin: 0%;
+    }
+    nav ul{
+        max-width: 350px;
+    }
+    blockquote {
+        font-size: medium;
+    }
+   }
