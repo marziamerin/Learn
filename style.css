@@ -66,4 +66,10 @@ h1{
     top: auto;
 
    }
+   footer{
+    color: white;
+    background-color: #222222;
+    text-align: center;
+    padding: 7px;
+   }
   
