@@ -4,49 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>SMUCTian Bus Tracker</title>
 </head>
 <body>
-    <h1> SMUCTians Bus Tracker</h1>
+    <header>
+     <h1> SMUCTians Bus Tracker</h1>
+    </header>
+    <section class="Cover">
+        <img src="../Learn/images/Close Up.jpg" alt="Cover Image" height="700">
+    </section>
     <hr>
-    <blockquote> Leading student life is always full of struggles. And this feature will let the user make it easier, by keeping information about the most dreadful traffic jam in Dhaka city. Students won’t have to wait for the bus. They can monitor the bus's location from their home through their SMUCTian account. This phase of the project development sprint we boolean autocrats would like to introduce this feature with the admin panel of the project.
-
-    </blockquote>
 <div>
-    <ul >
-        <li>Location</li>
+    <nav>
+     <ul>
         <li>Route</li>
         <li>Time</li>
-        <li>Bus STOPS</li>
         <li>Announcements</li>
         <li>Help</li>
-    </ul>
+     </ul>
+    </nav>
 </div>
+<br>
+<section>
+   <blockquote> Leading student life is always full of struggles. And this feature will let the user make it easier, by keeping information about the most dreadful traffic jam in Dhaka city. Students won’t have to wait for the bus. They can monitor the bus's location from their home through their SMUCTian account. 
+   </blockquote>
+</section>
+<br>
 <div>
-    <blockquote style="font-size: large;" > <em>Find Buses Near Me</em> </blockquote> 
+    <h2> <em>Find Buses Near Me </em> </h2>
     <p>This feature should help students by tracking the current location of needed university buses and their routes and estimated time to reach students location.
 </p>
 <br>
-    <form>
+    <form class="Merin">
         <label for="Location">Student's Current Location -</label> 
-        <input type="text" id="Location" name="Location" placeholder="Your Location" required>
-        <br>
+        <select>
+            <option value="gazipur chowrasta">Gazipur Chowrasta</option>
+            <option value="bypass">Bypass</option>
+            <option value="sign board">Sign Board</option>
+            <option value="board bazar">Board Bazar</option>
+            <option value="gazipura">Gazipura</option>
+            <option value="college gate,tongi">College gate,Tongi </option>
+            <option value="cherag ali">Cherag Ali</option>
+            <option value="tongi station">Tongi Station</option>
+            <option value="abdullahpur">Abdullahpur</option>
+            <option value="housebuilding">Housebuilding</option>
+            <option value="uttara ajompur">Uttara Ajompur</option>
+            <option value="zamzam">Zamzam</option>
+            <option value="khalpar">Khalpar</option>
+            <option value="mirpur 10">Mirpur 10</option>
+            <option value="mirpur 11">Mirpur 11</option>
+            <option value="pallabi">Pallabi</option>
+            <option value="savar bus stand">Savar Bus STand</option>
+            <option value="ajimpur">Ajimpur</option>
+            <option value="rampura bridge">Rampura Bridge</option>
+
+        </select>
+        <br> <br>
         <label for="Route">Choose Route -</label>
         <br>
-        <form action="">
+            <input type="radio" name="Route" value="Uttara Ajompur">Uttara Ajompur<br>
             <input type="radio" name="Route" value="Gazipur Chowrasta">Gazipur Chowrasta <br>
             <input type="radio" name="Route" value="Mirpur 10">Mirpur 10<br>
             <input type="radio" name="Route" value="Ajimpur">Ajimpur<br>
             <input type="radio" name="Route" value="Rampura Bridge">Rampura Bridge<br>
             <input type="radio" name="Route" value="Savar Bus Stand">Savar Bus Stand<br>
-        </form>
         <br>
         <label for="Enter Prefered Time">Enter Prefered Time -</label>
         <input type="text" id="time" name="Time" placeholder="Your Prefered Time" required>
+        </form>
         <br> <br>
+        <form class="Search">
         <input type="submit" value="Search">
          </form>
 </div>
-   
+   <footer>
+    <p class="Copyright">Copyright 2023 Boolean Autocrats</p>
+   </footer>
 </body>
 </html>
