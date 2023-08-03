@@ -1,14 +1,155 @@
 h1{
-    margin: 20px;
-    font-size: 50px;
+    opacity: 100%;
+    font-size: 100px;
     font-family:Georgia, 'Times New Roman', Times, serif ;
+    position: absolute;
+    left: 52%;
+    top: 40%;
+    color: rgb(5, 31, 117);
+ 
     }
     blockquote {
-        background-color: bisque;
         font-size: 25px;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        line-height: 35px;
+        letter-spacing: normal;
     }
     div {
         font-size: 20px;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 20px;
     }
+    li{
+        list-style-type: none;
+        text-shadow: 2px 2px #0a0a0a;
+        font-weight: bold;
+        color: whitesmoke;
+
+    }
+    nav{
+        background-color:  rgb(5, 31, 117);
+        padding: 20px;
+    }
+    nav li{
+        width: 25%;
+        display: inline-block;
+        max-width: 1200px;
+        margin: 0 auto ;
+        text-align: center;
+    }
+    nav ul{
+        white-space: nowrap;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 25px;
+        padding:10px;
+        background-color: rgb(5, 31, 117);
+        color: white;
+    }
+    p{
+        font-size: 23px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        line-height: 30px;
+        letter-spacing: 5cap;
+    }
+   .Merin{
+    background-color: #e2e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    
+   }
+
+   img{
+    filter: opacity(0.6);
+    width: 1340px;
+    position: inherit;
+    top: auto;
+
+   }
+   footer{
+    color: white;
+    background-color: #222222;
+    text-align: center;
+    padding: 7px;
+   }
+   nav li:hover{
+    text-decoration: underline;
+   }
+   @media screen and (max-width:1350px) {
+    h1 {
+        font-size: 155px;
+        left:80% ;
+        top: 60%;
+    }
+    img{
+        width: 1090px;
+    }
+   }
+   @media screen and (max-width:1115px) {
+    h1 {
+        font-size: 75px;
+        left:55% ;
+        top: 50%;
+    }
+    img{
+        width: 1090px;
+    }
+   }
+   @media screen and (max-width:1000px) {
+    h1 {
+        font-size: 70px;
+        left: 52%;
+        top: 55%;
+    }
+    img{
+        width: 975px;
+    }
+   }
+   @media screen and (max-width:900px) {
+    h1 {
+        font-size: 60px;
+        left: 55%;
+        top: 59%;
+    }
+    img{
+        width: 875px;
+    }
+   }
+   @media screen and (max-width:850px) {
+    h1 {
+        font-size: 65px;
+        left: 48%;
+        top: 65%;
+    }
+    img{
+        width: 825px;
+    }
+    nav li{
+       width: 24%;
+    }
+   }
+   @media screen and (max-width:500px) {
+    h1 {
+        font-size: 35px;
+        left: 49%;
+        top: 35%;
+    }
+    img{
+        width: 475px;
+        height: 400px;
+    }
+    nav li{
+        width: 25%;
+        font-size: medium;
+        max-width: 500px;
+        margin: 0%;
+    }
+    nav ul{
+        max-width: 350px;
+    }
+    blockquote {
+        font-size: medium;
+    }
+   }
