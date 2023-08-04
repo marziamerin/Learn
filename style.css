@@ -125,6 +125,11 @@
     background-color:rgb(255, 255, 255) ;
     font-size: 20px;
     color: rgb(5, 31, 117);
+    box-shadow: 0 4px 8px 0  rgb(5, 31, 117);
+    transition: 0.3s;
+}
+.card-1:hover {
+    box-shadow: 0 8px 16px 0 rgb(5, 31, 117);
 }
 #ajompur{
     border-collapse: collapse;
@@ -141,6 +146,97 @@
   #ajompur tr:hover {background-color: #ddd;}
   
   #ajompur th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #d2d4d3;
+    color:rgb(5, 31, 117);
+  }
+  .container-2{
+    background-color: rgb(5, 31, 117);
+    padding: 2px;
+    text-align: center;
+    color: white;
+    width: 650px;
+
+}
+.card-2{
+    left: 55%;
+    top: 1850px;
+    padding: 15px;
+    color: white;
+    background-color:rgb(255, 255, 255) ;
+    font-size: 20px;
+    color: rgb(5, 31, 117);
+    box-shadow: 0 4px 8px 0  rgb(5, 31, 117);
+    transition: 0.3s;
+    text-align: center;
+}
+.card-2:hover {
+    box-shadow: 0 8px 16px 0 rgb(5, 31, 117);
+  }
+#gazipur{
+    border-collapse: collapse;
+    width: 400px;
+    align-items: center;
+}
+#gazipur td, #gazipur th {
+    border: 1px solid rgb(5, 31, 117);
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #gazipur tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #gazipur tr:hover {background-color: #ddd;}
+  
+  #gazipur th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #d2d4d3;
+    color:rgb(5, 31, 117);
+  }
+  .container-3{
+    background-color: rgb(5, 31, 117);
+    padding: 5px;
+    text-align: center;
+    color: white;
+    width: 810px;
+
+}
+.card-3{
+    position: absolute;
+    left: 45%;
+    top: 3100px;
+    padding: 20px;
+    color: white;
+    background-color:rgb(255, 255, 255) ;
+    font-size: 40px;
+    color: rgb(5, 31, 117);
+    box-shadow: 0 4px 8px 0  rgb(5, 31, 117);
+    transition: 0.3s;
+    text-align: center;
+}
+.card-3:hover {
+    box-shadow: 0 8px 16px 0 rgb(5, 31, 117);
+}
+#mirpur{
+    border-collapse: collapse;
+    width: 600px;
+    align-items: center;
+}
+#mirpur td, #mirpur th {
+    border: 1px solid rgb(5, 31, 117);
+    padding: 5px;
+    text-align: center;
+  }
+  
+  #mirpur tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #mirpur tr:hover {background-color: #ddd;}
+  
+  #mirpur th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
@@ -193,14 +289,38 @@
    }
    .card-1{
     position: absolute;
-    left: 60%;
+    left: 55%;
     top: 2300px;
     width: 10px;
-    font-size:30px;}
+    font-size:30px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0  rgb(5, 31, 117);
+    transition: 0.3s;}
+    #ajompur{
+        border-collapse: collapse;
+        width: 600px;
+        font-size: 30px;
+    }
     .container-1{
-        width: 450px;
+        width: 620px;
         padding: 5px;
-        font-size: 60px;
+        border-radius: 2px;
+        font-size: 30px;
+    }
+    .card-2{
+        width: 10px;
+        font-size:30px;
+        padding: 10px;
+    }
+    #gazipur{
+    border-collapse: collapse;
+    width: 600px;
+    font-size: 30px;
+    }
+    #mirpur{
+    border-collapse: collapse;
+    width: 800px;
+    font-size: 30px;
     }
 }
    @media screen and (max-width:1350px) {
