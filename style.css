@@ -323,6 +323,44 @@
     font-size: 30px;
     }
 }
+@media screen and (max-width:1500px) {
+    .title{
+       left: 60%;
+     }
+     img{
+        width: 1460px;
+     }
+     img.full{
+        width: 740px;
+     }
+     .card-1{
+        width: 10px;
+     }
+     .container-1{
+        width: 570px;
+     }
+     #ajompur {
+        width: 550px;
+     }
+     .card-2{
+        width: 10px;
+     }
+     .container-2{
+        width: 570px;
+     }
+     #gazipur {
+        width: 550px;
+     }
+     .card-3{
+        width: 10px;
+     }
+     .container-3{
+        width: 730px;
+     }
+     #mirpur {
+        width: 700px;
+     }
+   }
    @media screen and (max-width:1350px) {
     h1 {
         font-size: 155px;
