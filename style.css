@@ -94,7 +94,12 @@ h1{
     top: auto;
 
    }
-  
+  p.h3{
+    font-size: 40px;
+    color:  rgb(5, 31, 117);
+    padding: 15px;
+    border-bottom: 3px solid rgb(5, 31, 117) ;
+  }
    img.full{
     filter: opacity(1);
     width: 550px;
