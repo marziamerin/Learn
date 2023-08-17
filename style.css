@@ -1,6 +1,6 @@
 .title{
     opacity: 100%;
-    font-size: 100px;
+    font-size: 70px;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     position: absolute;
     left: 52%;
@@ -9,29 +9,29 @@
  
     }
     blockquote {
-        font-size: 25px;
+        font-size: 40px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        line-height: 35px;
-        letter-spacing: normal;
+        line-height: 53px;
+        letter-spacing: 1px;
     }
     div {
-        font-size: 20px;
+        font-size: 30px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        margin: 20px;
+        margin: 10px;
     }
     li{
         list-style-type: none;
-        text-shadow: 2px 2px #0a0a0a;
+        text-shadow: 2px 2px #000000;
         font-weight: bold;
         color: whitesmoke;
 
     }
     nav{
         background-color:  rgb(5, 31, 117);
-        padding: 20px;
+        padding: 25px;
     }
     nav li{
-        width: 25%;
+        width: 37%;
         display: inline-block;
         max-width: 1200px;
         margin: 0 auto ;
@@ -44,25 +44,27 @@
     nav ul{
         white-space: nowrap;
         max-width: 1200px;
-        margin: 0 auto;
         box-sizing: content-box;
+        font-size: 40px;
     }
     h2{
-        font-size: 25px;
-        padding:10px;
+        font-size: 37px;
+        padding:20px;
         background-color: rgb(5, 31, 117);
         color: white;
     }
     p{
-        font-size: 23px;
+        font-size: 38px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        line-height: 30px;
-        letter-spacing: 5cap;
+        line-height: 43px;
+        letter-spacing: 1px;
     }
    .Merin{
-    background-color: #e2e0e0;
-    padding: 20px;
+    background-color: #e7e7e7;
+    padding: 40px;
     border-radius: 10px;
+    margin: 10px;
+    font-size: 35px;
     
    }
    select {
@@ -70,9 +72,13 @@
     padding: 16px 20px;
     border: none;
     border-radius: 4px;
-    background-color: #f1f1f1;
-    font-size: large;
+    background-color:rgb(255, 255, 255);
+    font-size: 33px;
   }
+  input[type='radio']{
+    width: 25px;
+    height: 25px;
+}
   input[type=submit]{
     background-color: rgb(5, 31, 117);
     border: none;
@@ -80,7 +86,7 @@
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
-    font-size: large;
+    font-size: 35px;
     border-radius: 5px;
   }
   input[type=submit]:hover {
@@ -89,20 +95,20 @@
   }
    img{
     filter: opacity(0.6);
-    width: 1340px;
+    width: 2010px;
     position: inherit;
     top: auto;
 
    }
   p.h3{
-    font-size: 40px;
+    font-size: 50px;
     color:  rgb(5, 31, 117);
     padding: 15px;
     border-bottom: 3px solid rgb(5, 31, 117) ;
   }
    img.full{
     filter: opacity(1);
-    width: 550px;
+    width: 1000px;
     position: inherit;
     top: auto;
     border-radius: 30px;
@@ -113,13 +119,13 @@
     padding: 2px;
     text-align: center;
     color: white;
-    width: 450px;
+    width: 800px;
 
 }
 .card-1{
     position: absolute;
     left: 55%;
-    top: 1850px;
+    top: 2700px;
     padding: 15px;
     color: white;
     background-color:rgb(255, 255, 255) ;
@@ -133,7 +139,7 @@
 }
 #ajompur{
     border-collapse: collapse;
-    width: 400px;
+    width: 795px;
 }
 #ajompur td, #ajompur th {
     border: 1px solid rgb(5, 31, 117);
@@ -157,7 +163,7 @@
     padding: 2px;
     text-align: center;
     color: white;
-    width: 650px;
+    width: 800px;
 
 }
 .card-2{
@@ -177,7 +183,7 @@
   }
 #gazipur{
     border-collapse: collapse;
-    width: 400px;
+    width: 790px;
     align-items: center;
 }
 #gazipur td, #gazipur th {
@@ -202,13 +208,13 @@
     padding: 5px;
     text-align: center;
     color: white;
-    width: 810px;
+    width: 999px;
 
 }
 .card-3{
     position: absolute;
     left: 45%;
-    top: 3100px;
+    top: 3550px;
     padding: 20px;
     color: white;
     background-color:rgb(255, 255, 255) ;
@@ -223,7 +229,7 @@
 }
 #mirpur{
     border-collapse: collapse;
-    width: 600px;
+    width: 1000px;
     align-items: center;
 }
 #mirpur td, #mirpur th {
@@ -249,201 +255,3 @@
     text-align: center;
     padding: 7px;
    } 
-   @media screen and (max-width:1700px) {
-    h1 {
-        font-size: 90px;
-        left:80% ;
-        top: 60%;
-    }
-    img{
-        height: 800px;
-        width: 1630px;
-    }
-    nav {padding: 30px;}
-    nav li { font-size: 30px;}
-    blockquote {
-        font-size: 30px;
-        line-height: 40px;
-        letter-spacing: 1px;}
-    h2 {font-size: 35px;}
-    p{ 
-    font-size: 30px;
-    line-height: 40px;
-    letter-spacing: 1px;}
-    .Merin{
-        font-size: 30px;
-    }
-    select {
-        width: 50%;
-        padding: 26px 30px;
-        border: none;
-        border-radius: 10px;
-        font-size: 30px;
-   }
-   input[type=submit] {
-    padding: 26px 42px;
-    font-size: 30px;
-   } 
-   img.full{
-    width: 800px;
-   }
-   .card-1{
-    position: absolute;
-    left: 55%;
-    top: 2300px;
-    width: 10px;
-    font-size:30px;
-    padding: 10px;
-    box-shadow: 0 4px 8px 0  rgb(5, 31, 117);
-    transition: 0.3s;}
-    #ajompur{
-        border-collapse: collapse;
-        width: 600px;
-        font-size: 30px;
-    }
-    .container-1{
-        width: 620px;
-        padding: 5px;
-        border-radius: 2px;
-        font-size: 30px;
-    }
-    .card-2{
-        width: 10px;
-        font-size:30px;
-        padding: 10px;
-    }
-    #gazipur{
-    border-collapse: collapse;
-    width: 600px;
-    font-size: 30px;
-    }
-    #mirpur{
-    border-collapse: collapse;
-    width: 800px;
-    font-size: 30px;
-    }
-}
-@media screen and (max-width:1500px) {
-    .title{
-       left: 60%;
-     }
-     img{
-        width: 1460px;
-     }
-     img.full{
-        width: 740px;
-     }
-     .card-1{
-        width: 10px;
-     }
-     .container-1{
-        width: 570px;
-     }
-     #ajompur {
-        width: 550px;
-     }
-     .card-2{
-        width: 10px;
-     }
-     .container-2{
-        width: 570px;
-     }
-     #gazipur {
-        width: 550px;
-     }
-     .card-3{
-        width: 10px;
-     }
-     .container-3{
-        width: 730px;
-     }
-     #mirpur {
-        width: 700px;
-     }
-   }
-   @media screen and (max-width:1350px) {
-    h1 {
-        font-size: 155px;
-        left:80% ;
-        top: 60%;
-    }
-    img{
-        width: 1000px;
-    }
-   }
-   @media screen and (max-width:1200px) {
-    h1 {
-        font-size: 85px;
-        left:70% ;
-        top: 50%;
-    }
-    img{
-        width: 1170px;
-    }
-   }
-   @media screen and (max-width:1115px) {
-    h1 {
-        font-size: 75px;
-        left:55% ;
-        top: 50%;
-    }
-    img{
-        width: 1070px;
-    }
-   }
-   @media screen and (max-width:1000px) {
-    h1 {
-        font-size: 70px;
-        left: 52%;
-        top: 55%;
-    }
-    img{
-        width: 975px;
-    }
-   }
-   @media screen and (max-width:900px) {
-    h1 {
-        font-size: 60px;
-        left: 55%;
-        top: 59%;
-    }
-    img{
-        width: 875px;
-    }
-   }
-   @media screen and (max-width:850px) {
-    h1 {
-        font-size: 65px;
-        left: 48%;
-        top: 65%;
-    }
-    img{
-        width: 825px;
-    }
-    nav li{
-       width: 24%;
-    }
-   }
-   @media screen and (max-width:500px) {
-    h1 {
-        font-size: 35px;
-        left: 49%;
-        top: 35%;
-    }
-    img{
-        width: 475px;
-        height: 400px;
-    }
-    nav li{
-        width: 25%;
-        font-size: medium;
-        max-width: 500px;
-        margin: 0%;
-    }
-    nav ul{
-        max-width: 350px;
-    }
-    blockquote {
-        font-size: medium;
-    }
-   }
