@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>SMUCTian Bus Tracker</title>
 </head>
-<body>
+<body id="mainBody">
     <header class="title">
      <h1> SMUCTians Bus Tracker</h1>
     </header>
@@ -35,7 +35,7 @@
     <p>This feature should help students by tracking the current location of needed university buses and their routes and estimated time to reach students location.
 </p>
 <br>
-    <form class="Merin">
+    <form class="Merin" action="/script.js" method="get">
         <label for="Location">Student's Current Location -</label> 
         <select>
             <option value="gazipur chowrasta">Gazipur Chowrasta</option>
@@ -94,9 +94,10 @@
         </form>
         <br> <br>
         <form id="Search">
-        <input type="submit" value="Search">
+        <input type="submit" value="Search" onclick="myAlert()">
          </form>
 </div>
+        <script src="script.js"></script>
          <br> <br>
     <p class="h3">
      Leaving Schedule
