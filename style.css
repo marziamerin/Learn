@@ -30,22 +30,48 @@
         background-color:  rgb(5, 31, 117);
         padding: 25px;
     }
+    ul {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+    ul li {display: inline-block;
+    padding: 0;}
+    ul li:hover {background-color: #000000;}
+    ul li:hover ul {display: block;
+      background-color: #000000;}
+    ul li ul {
+      position: absolute;
+      width: 650px;
+      height: 100px;
+      display: none;
+    }
+    ul li ul li { 
+      background-color: #000000; 
+      display: block; 
+      font-size: 20px;
+      white-space: nowrap;
+
+    }
+    ul li ul li {display:block !important;} 
+    ul li ul li:hover {background-color:#000000;}
     nav li{
-        width: 37%;
+        width: 22%;
         display: inline-block;
         max-width: 1200px;
         margin: 0 auto ;
         text-align: center;
     }
     nav li:hover{
-        text-decoration-line: underline;
+      background-color: #000000;
+      padding: 10px;
     
        }
     nav ul{
         white-space: nowrap;
         max-width: 1200px;
         box-sizing: content-box;
-        font-size: 40px;
+        font-size: 27px;
     }
     h2{
         font-size: 37px;
@@ -125,7 +151,7 @@
 .card-1{
     position: absolute;
     left: 55%;
-    top: 2700px;
+    top: 2600px;
     padding: 15px;
     color: white;
     background-color:rgb(255, 255, 255) ;
@@ -214,7 +240,7 @@
 .card-3{
     position: absolute;
     left: 45%;
-    top: 3550px;
+    top: 3450px;
     padding: 20px;
     color: white;
     background-color:rgb(255, 255, 255) ;
